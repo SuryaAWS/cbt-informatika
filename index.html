@@ -1,0 +1,30 @@
+<!doctype html>
+<html lang="id">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#123b70">
+  <title>CBT Informatika — SMP Negeri 1 Kanor</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <main class="page">
+    <section class="login-card">
+      <div class="brand-mark">CBT</div>
+      <p class="eyebrow">SMP NEGERI 1 KANOR</p>
+      <h1>Computer Based Test</h1>
+      <p class="muted">Silakan masuk menggunakan akun ujian.</p>
+      <form id="login-form">
+        <label for="email">Email / Username berbentuk email</label>
+        <input id="email" type="email" autocomplete="username" required placeholder="nama@sekolah.id">
+        <label for="password">Password</label>
+        <input id="password" type="password" autocomplete="current-password" required placeholder="Masukkan password">
+        <button id="login-button" type="submit">Masuk</button>
+        <p id="login-message" class="message" role="status"></p>
+      </form>
+      <p class="small muted">Gunakan akun yang telah dibuat oleh administrator.</p>
+    </section>
+  </main>
+  <script type="module" src="js/auth.js"></script>
+</body>
+</html>
